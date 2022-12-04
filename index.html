@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+
+<script>
+/*
+//Task-1
+let a = 3
+let b = 4
+let c = 5
+
+let sum = Math.pow(a,2)+Math.pow(b,2)+Math.pow(c,2)
+console.log(sum)
+*/
+
+
+
+
+
+/*
+//Task-2
+let a = 3
+let b = 4
+let c = 5
+
+sum = (...args) => args.reduce((a, b) => a + b)
+console.log(sum(a,b,c))
+*/
+
+
+
+
+
+
+
+/*
+//Task-3
+for(let i = 1; i<=100; i++){
+    console.log(i)
+}
+*/
+
+
+
+
+/*
+//Task-4
+for(let i = 1; i<=100; i++){
+    if(i%2==0){
+        console.log(i)
+    }
+}
+*/
+
+
+/*
+//Task-5
+let counter = 0
+for(let i = 1; i<=100; i++){
+    if(i%3==0){
+        counter++
+    }
+}
+console.log(counter)
+*/
+
+
+
+/*
+//Task-6
+for(let i = 2; i<=100; i++){
+    let counter = 0
+    for(let x = 2; x<i; x++){
+        if(i%x == 0){
+            counter++
+        }
+    }
+    if (counter == 0){console.log(i)}
+}
+*/
+
+
+
+
+
+/*
+//Task-7
+let x = 5
+let newString = ""
+    for(let i = 1; i <= x; i++){
+        for(let b = 1; b<=x; b++){
+            newString += "*"
+        }
+        newString += "\n"
+    }
+        console.log(newString)
+*/
+
+
+
+
+
+
+/*
+//Task-8
+
+let x = 5
+
+    for(let i = x; i > 0; i--){
+        let newString = ""
+        for(let b = 1; b<=i; b++){
+            newString += "*"
+        }
+        console.log(newString)
+    }
+*/ 
+
+
+
+
+
+/*
+//Task-9 
+
+function isSqrtOfTwo(a){
+    if(a==1){return `${1} is NOT squareroot of two.`}
+    let counter = 0
+    let newVar = a
+    while(newVar>1){
+        counter = 0 
+        if(newVar%2 != 0){
+            counter++
+        }
+        newVar/=2
+    }
+    if(counter==0){return `${a} is squareroot of two.`}
+    else{return `${a} is NOT squareroot of two.`}
+}
+*/
+
+
+
+/*
+//Task-10
+function rankOfNumber(a){
+    let newVar = a
+    let counter = 0
+    while(newVar>=1){
+        newVar/=10
+        counter++
+    }
+    return counter
+}
+*/
+
+
+
+
+
+
+
+
+/*
+//Task-11
+let myArray = [1,2,3,4,10]
+
+function isContains(a){
+    let counter = 0
+    for(let i = 0; i<myArray.length; i++){
+        if(a==myArray[i]){
+            counter++
+        } 
+    }
+    if (counter == 1){return `Yes! Array contains ${a}.` }
+    else{return `No! Array not contains ${a}.` }
+}
+*/
+
+
+
+
+
+/*
+//Task-12
+let myArray = [1,2,13,4,10]
+
+let min = Math.min(...myArray)
+let max = Math.max(...myArray)
+
+console.log(`Minimum num ${min}`)
+console.log(`Maximum num ${max}`)
+*/
+
+
+
+
+
+/*
+function isFits(objectHeight,objectWidth,doorHeight,doorWidth){
+    if(objectHeight<doorHeight&&objectWidth<doorWidth){
+        return true
+    }
+    else{return false}
+}
+*/
+
+
+
+
+
+
+</script>
+</html>
